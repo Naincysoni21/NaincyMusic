@@ -36,7 +36,7 @@ pickledb
 pillow==10.3.0
 psutil
 ntgcalls
-py-tgcalls
+py-tgcalls==0.9.7
 pycountry
 pycryptodome
 pydub
