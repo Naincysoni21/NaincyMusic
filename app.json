@@ -1,83 +1,165 @@
 {
-    "name": "ANNIE X MUSIC",
-    "description": "ANNIE X MUSIC is a Telegram Music Player Bot built using Python, leveraging Pyrogram and Py-Tgcalls for seamless music streaming.",
-    "logo": "https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
+
+    "name": "NAINCY Music",
+
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+
+    "logo": "https://graph.org/file/c67a4a8966a3d01c0b40a-a140e682f4071bbd25.jpg",
+
     "keywords": [
-        "python3",
-        "telegram",
-        "bot",
-        "Jarvis",
-        "MusicBot",
-        "telegram-bot",
-        "pyrogram"
+
+    "python3",
+
+    "telegram",
+
+    "bot",
+
+    "NAINCYMUSICBOT",
+
+    "MusicBot",
+
+    "telegram-bot",
+
+    "pyrogram"
+
     ],
+
     "env": {
-        "API_ID": {
-            "description": "Retrieve this value from https://my.telegram.org.",
-            "value": "",
-            "required": true
+
+      "API_ID": {
+          
+        "description": "Retrieve this value from https://my.telegram.org.",
+          
+        "value": "",
+          
+        "required": true
+          
         },
+        
         "API_HASH": {
-            "description": "Retrieve this value from https://my.telegram.org.",
-            "value": "",
-            "required": true
+            
+          "description": "Retrieve this value from https://my.telegram.org.",
+            
+          "value": "",
+            
+          "required": true
+            
         },
+        
         "BOT_TOKEN": {
-            "description": "Obtain a bot token from Botfather on Telegram.",
-            "value": "",
-            "required": true
+            
+          "description": "Obtain a bot token from Botfather on Telegram.",
+            
+          "value": "",
+            
+          "required": true
+            
         },
+        
         "MONGO_DB_URI": {
-            "description": "Get a MongoDB URL from https://cloud.mongodb.com.",
-            "value": "",
-            "required": true
+            
+          "description": "Get a MongoDB URL from https://cloud.mongodb.com.",
+            
+          "value": "",
+            
+          "required": true
+            
         },
+        
         "OWNER_ID": {
-            "description": "The user ID of the owner you want to add.",
-            "value": "",
-            "required": true
+            
+          "description": "The user ID of the owner you want to add.",
+            
+          "value": "",
+            
+          "required": true
+            
         },
+        
         "STRING_SESSION": {
-            "description": "Generate a Pyrogram v2 String Session using @Strings_Gen_Robot on Telegram.",
-            "value": "",
-            "required": true
+            
+          "description": "Generate a Pyrogram v2 String Session using @Strings_Gen_Robot on Telegram.",
+            
+          "value": "",
+            
+          "required": true
+            
         },
+        
         "HEROKU_API_KEY": {
-            "description": "Your Heroku account's API key.",
-            "value": "",
-            "required": false
+            
+          "description": "Your Heroku account's API key.",
+            
+          "value": "",
+            
+          "required": false
+            
         },
+        
         "HEROKU_APP_NAME": {
-            "description": "The name of your Heroku app.",
-            "value": "",
-            "required": false
+            
+          "description": "The name of your Heroku app.",
+            
+          "value": "",
+            
+          "required": false
+            
         },
+        
         "LOGGER_ID": {
-            "description": "Your Log Group ID. Add your bot and promote it to admin with full rights.",
-            "value": "",
-            "required": true
+            
+          "description": "Your Log Group ID. Add your bot and promote it to admin with full rights.",
+            
+          "value": "",
+            
+          "required": true
+            
         },
+        
         "GPT_API": {
-            "description": "Your OpenAI GPT API key.",
-            "value": "",
-            "required": false
+            
+          "description": "Your OpenAI GPT API key.",
+            
+          "value": "",
+            
+          "required": false
+            
         },
+        
         "DEEP_API": {
-            "description": "Your DEEP API key from https://deepai.org/",
-            "value": "",
-            "required": false
-        }
+            
+          "description": "Your DEEP API key from https://deepai.org/",
+            
+          "value": "",
+            
+          "required": false
+            
+      }
+
     },
+
     "buildpacks": [
-        {
-            "url": "heroku/python"
-        },
-        {
-            "url": "heroku/nodejs"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+
+          {
+
+              "url": "heroku/python"
+
+          },
+
+          {
+
+              "url": "heroku/nodejs"
+
+          },
+
+          {
+
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+
+          }
+
+      ],
+
+      "stack": "container"
+
         }
-    ],
-    "stack": "container"
-}
